@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+from hugchat import hugchat
+from hugchat.login import Login
 
-st.write('Hello world!')
+st.set_page_config(page_title="🤗💬 HugChat")
